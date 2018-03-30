@@ -9,12 +9,12 @@ import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 @IFMLLoadingPlugin.TransformerExclusions(value = "core.render360.coretransform.")
 @IFMLLoadingPlugin.Name(CoreLoader.MOD_NAME)
 @IFMLLoadingPlugin.SortingIndex(value = 999)
-@Mod(modid = CoreLoader.MOD_ID, name = CoreLoader.MOD_NAME, version = CoreLoader.MOD_VERSION, useMetadata = true)
+@Mod(modid = CoreLoader.MOD_ID, name = CoreLoader.MOD_NAME, version = CoreLoader.MOD_VERSION, useMetadata = true, acceptableRemoteVersions = "*")
 public class CoreLoader implements IFMLLoadingPlugin {
 	
 	public static final String MOD_ID = "render360core";
     public static final String MOD_NAME = "Render 360 core";
-    public static final String MOD_VERSION = "1.0";
+    public static final String MOD_VERSION = "1.0.1";
 	public static boolean isObfuscated;
 	
 	@Override
